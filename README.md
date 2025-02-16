@@ -103,21 +103,25 @@ The application will be available at `http://localhost:3000`.
 
 ### Frontend
 
-frontend/
-├── src/
-│ ├── components/ # React components
-│ ├── services/ # API and Socket services
-│ ├── config/ # Configuration files
-│ ├── types/ # TypeScript type definitions
-│ └── App.tsx # Main application component
+The frontend directory structure is organized as follows:
 
-### Backend
+- `frontend/`
+  - `src/`
+    - `components/` - Contains all React components
+    - `services/` - Houses API and Socket service implementations
+    - `config/` - Configuration files and settings
+    - `types/` - TypeScript type definitions and interfaces
+    - `App.tsx` - Main application component
 
-backend/
-├── routes/ # API route handlers
-├── services/ # Business logic
-├── database/ # Database models and initialization
-└── app.py # Main application entry
+### Backend 
+
+The backend directory is structured as:
+
+- `backend/`
+  - `routes/` - API route handlers and endpoints
+  - `services/` - Business logic and core functionality
+  - `database/` - Database models and initialization scripts
+  - `app.py` - Main application entry point
 
 ## API Endpoints
 

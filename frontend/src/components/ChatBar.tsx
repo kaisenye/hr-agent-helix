@@ -26,9 +26,8 @@ const ChatBar = ({ chatHistory, loading, onSendMessage }: ChatBarProps) => {
             className={`message ${msg.role}`}
             style={{
               alignItems: msg.role === "user" ? "flex-end" : "flex-start",
-              backgroundColor: msg.role === "user" ? "#007bff" : "#E3E3E3FF",
+              backgroundColor: msg.role === "user" ? "#524E4EFF" : "#E3E3E3FF",
               color: msg.role === "user" ? "white" : "black",
-              padding: "0.5rem 1rem",
             }}
           >
             {msg.content}
