@@ -1,4 +1,4 @@
-# HR Agent - SellScale Helix
+# HR Agent - Helix
 
 An AI-powered HR assistant that helps HR professionals craft effective recruiting strategies and outreach messages.
 
